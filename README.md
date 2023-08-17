@@ -5,4 +5,4 @@
 |:---:|:---:|:---:|
 |打印九九乘法表                            |[table.py](https://github.com/Selene-Light/OneLinePython/blob/master/table.py)|1|
 |抓取`https://quotes.toscrape.com/`上的名言|[QuotesSpider.py](https://github.com/Selene-Light/OneLinePython/blob/master/QuotesSpider.py)|2|
-|二分法查找                                |[QuotesSpider.py](https://github.com/Selene-Light/OneLinePython/blob/master/BinarySearch.py)|1|
+|二分法查找                                |[BinarySearch.py](https://github.com/Selene-Light/OneLinePython/blob/master/BinarySearch.py)|1|
