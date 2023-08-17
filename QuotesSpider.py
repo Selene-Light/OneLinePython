@@ -1,0 +1,2 @@
+import requests, bs4
+_ = [[print("quote: %s\nauthor: %s\ntags: %s\n\n" % (element.find("span", class_="text").string, element.find("small", class_="author").string, ", ".join(list(element.find("div", class_="tags").stripped_strings)[1:]))) for element in bs4.BeautifulSoup(requests.get(url).text).find_all("div", class_="quote")] for url in ["https://quotes.toscrape.com/page/%d/" % i for i in range(1, 11)]]
